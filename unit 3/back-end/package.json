@@ -1,0 +1,25 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "this is a test package.json",
+  "main": "firstNode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacs/rimraf.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "brandon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacs/rimraf/issues"
+  },
+  "homepage": "https://github.com/isaacs/rimraf#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
