@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Poster from './poster'
+import NavBar from './NavBar'
 
 class App extends Component {
   // in order to use "this" we have to use constructor
@@ -55,6 +56,7 @@ class App extends Component {
       })
     return (
       <div className="container">
+      <NavBar />
         <div className = "row">
           <h1>Movie App</h1>
 
