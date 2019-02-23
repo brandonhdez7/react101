@@ -39,7 +39,7 @@ class PokerTable extends Component {
         return(
             <div className="col-sm-12 the-table">
             <PokerHand cards={this.state.dealersHand} />
-            <pokerHand cards={this.state.playersHand} />
+            <PokerHand cards={this.state.playersHand} />
             <GameButtons dealFunction={this.prepDeck}/>
             </div>
         )
